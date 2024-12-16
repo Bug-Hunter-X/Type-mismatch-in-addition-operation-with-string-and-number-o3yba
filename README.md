@@ -1,0 +1,1 @@
+This example demonstrates a subtle type-related bug in TypeScript.  The `add` function is declared to accept two numbers and return a number. However, TypeScript does not throw an error when a string is passed as an argument. Instead of throwing an error, it performs string concatenation. This can lead to unexpected behavior and runtime errors if not caught during testing.
